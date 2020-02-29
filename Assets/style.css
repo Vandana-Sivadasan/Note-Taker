@@ -1,25 +1,7 @@
 html, body {
-    max-width: width 25px;;
     height: 100%;
-    margin: auto;
+    margin: 0;
     padding: 0;
-  }
-   
-  
-  h1  {
-    
-    font-size: large;
-    background-color: lightgreen;
-    background-size: 100px;
-  
-  }
-  h2   {
-    font-size: larger;
-    background-size: 100px;
-  }
-  button {
-    background-color: black;
-    
   }
   
   .save-note {
