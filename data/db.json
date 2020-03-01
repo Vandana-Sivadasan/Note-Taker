@@ -1,2 +1,9 @@
-var express = require('express')
-var app = express()
+
+
+var http = require("http");
+var fs = require("fs");
+var express = require("express");
+var app = express();
+var notetitle = require("./notetitle");
+var notetext = require("./notetext");
+

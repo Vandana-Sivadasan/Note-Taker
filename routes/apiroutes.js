@@ -1,5 +1,5 @@
-var tableData = require("../data/notetitleData");
-var waitListData = require("../data/notetextData");
+var notetitleData = require("../data/notetitleData");
+var notetextData = require("../data/notetextData");
 
 
 // ===============================================================================
@@ -49,8 +49,8 @@ module.exports = function(app) {
 
   app.post("/api/clear", function(req, res) {
     // Empty out the arrays of data
-    tableData.length = 0;
-    waitListData.length = 0;
+    notetitleData.length = 0;
+    notetextData.length = 0;
 
     res.json({ ok: true });
   });
